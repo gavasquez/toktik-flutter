@@ -3,7 +3,7 @@ import 'package:toktik/domian/entities/video_post.dart';
 import 'package:toktik/domian/repositories/video_post_repository.dart';
 
 class DiscoverProvider extends ChangeNotifier {
-  // TODO: Repository, DataSource
+  //* Repository, DataSource
   final VideoPostRepository videoPostRepository;
 
   bool initialLoading = true;
@@ -12,7 +12,7 @@ class DiscoverProvider extends ChangeNotifier {
   DiscoverProvider({required this.videoPostRepository});
 
   Future<void> loadNextPage() async {
-    //TODO Cargar videos
+    //* Cargar videos
     /* await Future.delayed(const Duration(seconds: 2)); */
 
     /* final List<VideoPost> newVideos = videoPosts
